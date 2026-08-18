@@ -1,0 +1,36 @@
+# 模擬波形
+*.vcd
+*.fsdb
+*.vpd
+*.wlf
+*.trn
+
+# 模擬與編譯產生的資料夾
+simv
+simv.*
+simv.daidir/
+csrc/
+work/
+WORK/
+INCA_libs/
+xcelium.d/
+DVEfiles/
+
+# Synopsys / Design Compiler 暫存檔
+*.svf
+*.pvl
+*.syn
+*.mr
+alib-52/
+default.svf
+
+# 一般暫存與備份檔
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# VS Code 個人設定
+.vscode/
